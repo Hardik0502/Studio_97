@@ -209,7 +209,7 @@ const container = useRef();
         </h1>
 
         <h1 className="text-[60px] bg-black/15 -rotate-[3deg] font-[t1] md:text-[85px] lg:text-[45px]">
-          AND FILM
+          AND FILMS
         </h1>
 
       </div>
