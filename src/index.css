@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+
+
+
+/* *{     aa code na lidhe margin padding work nati karti.
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {  
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "t1";
+  src: url("./assets/Fonts/Gambetta-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "t2";
+  src: url("./assets/Fonts/GeneralSans-Semibold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "t3";
+  src: url("./assets/Fonts/Epilogue-Black.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "t4";
+  src: url("./assets/Fonts/Gambetta-Regular\ \(1\).woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "t5";
+  src: url("./assets/Fonts/Switzer-Semibold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "t6";
+  src: url("./assets/Fonts/Pally-Medium\ \(1\).woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "t7";
+  src: url("./assets/Fonts/Melodrama-Semibold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "t8";
+  src: url("./assets/Fonts/GeneralSans-Semibold\ \(1\).woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navbar  */
+
+a {
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 2;
+}
+
+a::before,
+a::after {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 0;
+  background-color: #A6A6A6;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+a::before {
+  right: 0;
+  top: 0;
+}
+
+a::after {
+  left: 0;
+  bottom: 0;
+}
+
+a:hover::before,
+a:hover::after {
+  width: 100%;
+}
