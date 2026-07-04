@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Carousel from './Carousel'
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import ReviewsSection from './Effect';
 
 const words = [
   "ANTI-CLICHÉ",
@@ -15,8 +14,34 @@ const words = [
 
 const Home = () => {
 
-
+  
 const container = useRef();
+const sectionRef = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+  target: sectionRef,
+  offset: ["start start", "end end"],
+});
+
+const bg = useTransform(
+  scrollYProgress,
+  [0, 1],
+  ["#EBEBEB", "#111111"]
+);
+
+const y = useTransform(
+  scrollYProgress,
+  [0, 1],
+  ["100%", "0%"]
+);
+
+const textColor = useTransform(
+  scrollYProgress,
+  [0, 1],
+  ["#111111", "#FFFFFF"]
+);
+
+
 
 
   return (
@@ -184,83 +209,51 @@ const container = useRef();
       </div>
 
 
-      <div className="section3">
-              
-      <section className="w-full h-full bg-[#EBEBEB] px-8 md:px-16 lg:px-12 py-12">
 
-  <div className="grid lg:grid-cols-2  border-2 ">
 
-    {/* LEFT SIDE */}
-    <div>
+      <div className="section4" >
 
-      {/* Heading */}
-      <div className="italic font-serif  leading-[0.92] tracking-[-4px]">
-
-        <h1 className="text-[60px] font-[t6] rotate-[2deg] md:text-[85px] lg:text-[120px]">
-          STUDIO 97
-        </h1>
-
-        <h1 className="text-[60px] bg-black/25 rotate-[1deg] font-[t1] md:text-[85px] lg:text-[45px]">
-          WEDDING
-        </h1>
-
-        <h1 className="text-[60px] bg-black/15 -rotate-[1deg] font-[t1] md:text-[85px] lg:text-[45px]">
-          PHOTOGRAPHY
-        </h1>
-
-        <h1 className="text-[60px] bg-black/15 -rotate-[3deg] font-[t1] md:text-[85px] lg:text-[45px]">
-          AND FILMS
-        </h1>
+        <ReviewsSection  />
 
       </div>
 
-      {/* Bottom Left */}
-      <div className="flex items-center justify-between gap-28 -mt-10 ">
 
-        <p className="text-[38px] ml-4 leading-[1.1] font-[t4]">
-          Photographer
-          <br />
-          of people
-          <br />
-          in love.
-        </p>
 
-        <img
-          src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1783000195/DSC09787-X2-modified_cmjn46.jpg"
-          alt=""
-          className="w-[320px]  rotate-[12deg] lg:w-[250px] object-cover"
-        />
+      <div className="section5">
 
-      </div>
+          <section
+            ref={sectionRef}
+            className="relative h-[300vh]"
+          >
 
-    </div>
+            <motion.div
+              style={{
+                backgroundColor: bg,
+              }}
+              className="sticky top-0 h-screen overflow-hidden"
+            >
 
-    {/* RIGHT SIDE */}
-    <div className="flex  justify-end">
+         {/* Cover Panel */}
 
-      <div className="max-w-[360px] mt-22">
+            <motion.div
+              style={{ y }}
+              className="absolute inset-0 bg-black"
+            />
 
-        <h2 className="italic font-[t1]  text-[48px] leading-none">
-          We're truly happy you're here.
-        </h2>
+          {/* Text */}
 
-        <p className="mt-8 text-[15px] font-[t7] mr-2  leading-7 tracking-[2px] text-neutral-900">
-          Your goal is to throw the most epic party for your
-          friends and family? Our goal is to capture these
-          special moments for you. For us this is a big thing,
-          as we always put a lot of effort in our work. For us
-          this is not just a client / vendor thing. We need to
-          connect and team up to get the best results
-          possible.
-        </p>
+              <motion.div
+                style={{ color: textColor }}
+                className="relative z-10 h-full flex items-center justify-center"
+              >
+                <h1 className="text-[140px] font-bold uppercase">
+                  Studio 97
+                </h1>
+              </motion.div>
 
-      </div>
+            </motion.div>
 
-    </div>
-
-  </div>
-
-</section>
+          </section>
 
       </div>
 

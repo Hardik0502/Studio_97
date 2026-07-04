@@ -1,0 +1,33 @@
+.nav-link {
+  text-decoration: none;
+  padding: 2px 10px;
+  position: relative;
+  transition: .5s;
+  z-index: 2;
+}
+
+.nav-link::before,
+.nav-link::after{
+  content:"";
+  position:absolute;
+  width:0;
+  height:50%;
+  background:#A6A6A6;
+  transition:.5s;
+  z-index:-1;
+}
+
+.nav-link::before{
+  top:0;
+  right:0;
+}
+
+.nav-link::after{
+  bottom:0;
+  left:0;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after{
+  width:100%;
+}

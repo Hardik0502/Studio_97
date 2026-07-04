@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import './Nav.css'
 
 
 const Navbar = () => {
@@ -106,11 +107,11 @@ const Navbar = () => {
 
 
                     <div className=' flex gap-1 uppercase text-[13px] font-[t2] ' >
-                        <Link to="/" >  Home     </Link>
-                        <Link to="/blogs" > Blogs </Link>
-                        <Link to="/packages" > Packages </Link>
-                        <Link to="/help" > Help </Link>
-                        <Link to="/about" > About </Link>
+                        <Link to="/" className="nav-link" >  Home     </Link>
+                        <Link to="/blogs" className="nav-link"> Blogs </Link>
+                        <Link to="/packages" className="nav-link" > Packages </Link>
+                        <Link to="/help" className="nav-link"> Help </Link>
+                        <Link to="/about" className="nav-link"> About </Link>
                     </div>
 
                 </div>
