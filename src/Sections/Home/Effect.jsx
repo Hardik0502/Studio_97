@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
 
+
 const Rating = ({ stars }) => {
 
   return (
@@ -90,7 +91,7 @@ export default function ReviewsSection() {
 
           {/* LEFT */}
 
-          <div className="flex flex-col justify-between min-h-[620px] pr-16">
+          <div className="flex flex-col justify-between min-h-155 pr-16">
 
             <motion.h2
               initial={{ opacity: 0, y: 50 }}
@@ -174,7 +175,7 @@ export default function ReviewsSection() {
                     repeat: Infinity,
                     duration: 2,
                   }}
-                  className="text-4xl text-red-900 mb-8 text-neutral-500"
+                  className="text-4xl text-red-900 mb-8"
                 >
                   ★★★★★
                 </motion.span>

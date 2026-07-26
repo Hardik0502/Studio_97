@@ -2,6 +2,11 @@ import React from 'react'
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import ReviewsSection from './Effect';
+import FrameSequence from './../../Components/FramesSequence/FrameSequence';
+import StoryText from './Story';
+import TextEffect from './TextEffect';
+import CoupleFrameSequence from '../../Components/FramesSequence/CoupleFrameSequence';
+import BlogReference from './BlogReference';
 
 const words = [
   "ANTI-CLICHÉ",
@@ -20,26 +25,39 @@ const sectionRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
   target: sectionRef,
-  offset: ["start start", "end end"],
+  offset: ["start end", "end end"],
 });
 
 const bg = useTransform(
   scrollYProgress,
-  [0, 1],
+  [0, 0.5],
   ["#EBEBEB", "#111111"]
 );
 
 const y = useTransform(
   scrollYProgress,
   [0, 1],
-  ["100%", "0%"]
+  ["50%", "0%"]
 );
 
 const textColor = useTransform(
   scrollYProgress,
   [0, 1],
-  ["#111111", "#FFFFFF"]
+  ["#111111", "#111111"]
 );
+
+const scale = useTransform(
+    scrollYProgress,
+    [0,1.35],
+    [1.7,0.5]
+);
+
+const textY = useTransform(
+    scrollYProgress,
+    [0.35,0.5],
+    ["0%","-180%"]
+);
+
 
 
 
@@ -223,7 +241,7 @@ const textColor = useTransform(
 
           <section
             ref={sectionRef}
-            className="relative h-[300vh]"
+            className="relative h-[750vh] "
           >
 
             <motion.div
@@ -233,29 +251,56 @@ const textColor = useTransform(
               className="sticky top-0 h-screen overflow-hidden"
             >
 
-         {/* Cover Panel */}
-
-            <motion.div
-              style={{ y }}
-              className="absolute inset-0 bg-black"
-            />
+            
 
           {/* Text */}
 
               <motion.div
-                style={{ color: textColor }}
-                className="relative z-10 h-full flex items-center justify-center"
+                style={{ color: textColor, scale }}
+                className="relative -z-10 h-full flex mt-15 items-start justify-center"
               >
                 <h1 className="text-[140px] font-bold uppercase">
-                  Studio 97
+                   Studio 97 
                 </h1>
+
+  
               </motion.div>
+         {/* Cover Panel */}
+
+            <motion.div
+              style={{ y }}
+              className="absolute inset-0 bg-black overflow-hidden"
+            >
+
+              <FrameSequence />  
+
+               <StoryText target={sectionRef} />
+
+
+  <div className="absolute inset-0 bg-black/30 pointer-events-none" />
+
+            </motion.div>
+
 
             </motion.div>
 
           </section>
 
       </div>
+
+        <div className="section7 bg-black">
+
+              < BlogReference />
+
+        </div>
+
+        <div className="section6">
+          
+              <TextEffect />
+          
+        </div>
+
+
 
     </>
   )
