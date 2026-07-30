@@ -108,7 +108,7 @@ export default function BlogReference() {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
             <div>
               <span className="text-[11px] font-mono tracking-[0.3em] text-neutral-500 uppercase block mb-4">
-                [ STUDIO ARCHIVE // 2025—2026 ]
+                [ STUDIO 97 SINCE 2018 ]
               </span>
               <h1 className="text-5xl sm:text-7xl lg:text-8xl font-serif font-light tracking-tight leading-[0.95] text-[#F3F1ED]">
                 Selected <br />
@@ -148,10 +148,6 @@ export default function BlogReference() {
                     className="w-full h-full object-cover grayscale contrast-[1.05] brightness-[0.9] transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100"
                     loading="lazy"
                   />
-                  {/* Subtle top index badge */}
-                  <div className="absolute top-4 left-4 font-mono text-[11px] text-white/70 bg-black/40 backdrop-blur-md px-2.5 py-1 border border-white/10">
-                    {project.id}
-                  </div>
                 </div>
 
                 {/* Technical Meta & Title Below Image */}
@@ -191,10 +187,6 @@ export default function BlogReference() {
                     className="w-full h-full object-cover grayscale contrast-[1.05] brightness-[0.9] transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100"
                     loading="lazy"
                   />
-                  {/* Subtle top index badge */}
-                  <div className="absolute top-4 left-4 font-mono text-[11px] text-white/70 bg-black/40 backdrop-blur-md px-2.5 py-1 border border-white/10">
-                    {project.id}
-                  </div>
                 </div>
 
                 {/* Technical Meta & Title Below Image */}

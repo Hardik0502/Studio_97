@@ -1,10 +1,13 @@
 import React from 'react'
+import Section1 from './Section1'
 
 const Packages = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+     <section className='Section1' >
+      < Section1 />
+    </section> 
+    </>
   )
 }
 
