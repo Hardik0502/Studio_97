@@ -2,19 +2,19 @@ import React, { useState, useEffect } from 'react';
 
 // Unique images for Package 01
 const package1Images = [
-  'https://images.pexels.com/photos/3845457/pexels-photo-3845457.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/2869318/pexels-photo-2869318.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/1557182/pexels-photo-1557182.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/208821/pexels-photo-208821.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/3212_ne5gp6.webp',
+  'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/32_x0aong.webp',
+  'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630487/7_ec46dj.webp',
+  'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/qe3_ckmwwk.jpg',
   'https://images.pexels.com/photos/1257110/pexels-photo-1257110.jpeg?auto=compress&cs=tinysrgb&w=800'
 ];
 
 // Unique images for Package 02
 const package2Images = [
-  'https://images.pexels.com/photos/7119102/pexels-photo-7119102.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/7119089/pexels-photo-7119089.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/325521/pexels-photo-325521.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/1741230/pexels-photo-1741230.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630487/6_z8zyji.webp',
+  'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/112_fooddu.jpg',
+  'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/3212_ne5gp6.webp',
+  'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/32_x0aong.webp',
   'https://images.pexels.com/photos/459957/pexels-photo-459957.jpeg?auto=compress&cs=tinysrgb&w=800'
 ];
 

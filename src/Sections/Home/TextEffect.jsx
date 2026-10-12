@@ -109,7 +109,7 @@ export default function TextEffect() {
           className="absolute inset-0 z-5 w-full h-full overflow-hidden transform-gpu will-change-transform"
         >
           <img
-            src="https://cdn.phototourl.com/free/2026-07-26-8f5ba360-0be2-4230-8ff6-43cdb6bf4197.webp"
+            src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1791628513/jbhai_aisbxe.webp"
             alt="Cinematic Preview"
             className="w-full h-full object-cover filter brightness-95 contrast-[1.05]"
           />

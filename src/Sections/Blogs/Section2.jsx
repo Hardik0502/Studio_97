@@ -55,7 +55,12 @@ const projectsData = [
       { type: 'video', url: '/Videos/v2.mp4', aspect: 'aspect-[9/16]' },
       { type: 'image', url: 'https://images.pexels.com/photos/1814261/pexels-photo-1814261.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
       { type: 'image', url: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
-      { type: 'image', url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' }
+      { type: 'image', url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'video', url: '/Videos/v3.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' }
     ]
   },
   {
@@ -74,7 +79,12 @@ const projectsData = [
       { type: 'image', url: 'https://images.pexels.com/photos/2773977/pexels-photo-2773977.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
       { type: 'image', url: 'https://images.pexels.com/photos/38531667/pexels-photo-38531667.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
       { type: 'video', url: '/Videos/v3.mp4', aspect: 'aspect-[3/4]' },
-      { type: 'image', url: 'https://images.pexels.com/photos/38531668/pexels-photo-38531668.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' }
+      { type: 'image', url: 'https://images.pexels.com/photos/38531668/pexels-photo-38531668.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/9]' },
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[9/16]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' }
     ]
   },
   {
@@ -93,7 +103,11 @@ const projectsData = [
       { type: 'image', url: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' },
       { type: 'image', url: 'https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
       { type: 'image', url: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
-      { type: 'image', url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' }
+      { type: 'image', url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/247287/pexels-photo-247287.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'video', url: '/Videos/v2.mp4', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' }
     ]
   },
   {
@@ -112,7 +126,11 @@ const projectsData = [
       { type: 'image', url: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
       { type: 'image', url: 'https://images.pexels.com/photos/2773977/pexels-photo-2773977.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
       { type: 'image', url: 'https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
-      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[3/4]' }
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'video', url: '/Videos/v3.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' }
     ]
   },
   {
@@ -131,7 +149,10 @@ const projectsData = [
       { type: 'image', url: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
       { type: 'image', url: 'https://images.pexels.com/photos/38531667/pexels-photo-38531667.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
       { type: 'image', url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
-      { type: 'image', url: 'https://images.pexels.com/photos/38531668/pexels-photo-38531668.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' }
+      { type: 'image', url: 'https://images.pexels.com/photos/38531668/pexels-photo-38531668.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1648377/pexels-photo-1648377.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' }
     ]
   },
   {
@@ -150,7 +171,161 @@ const projectsData = [
       { type: 'image', url: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
       { type: 'image', url: 'https://images.pexels.com/photos/2773977/pexels-photo-2773977.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
       { type: 'image', url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
-      { type: 'video', url: '/Videos/v2.mp4', aspect: 'aspect-[3/4]' }
+      { type: 'video', url: '/Videos/v2.mp4', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' }
+    ]
+  },
+  // NEW CARDS ADDED BELOW
+  {
+    id: 'studio97-editorial',
+    title: 'VOGUE PERSPECTIVES',
+    type: 'Fashion Editorial',
+    cover: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800',
+    coverType: 'image',
+    aspectRatio: 'aspect-[4/3]',
+    gallery: [
+      { type: 'image', url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2773977/pexels-photo-2773977.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'video', url: '/Videos/v2.mp4', aspect: 'aspect-[9/16]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2016703/pexels-photo-2016703.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/38531667/pexels-photo-38531667.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' }
+    ]
+  },
+  {
+    id: 'studio97-street',
+    title: 'URBAN ECHOES',
+    type: 'Street Documentary',
+    cover: 'https://res.cloudinary.com/ddhh0a3an/image/upload/v1782999599/samples/woman-on-a-football-field.jpg',
+    coverType: 'image',
+    aspectRatio: 'aspect-[16/9]',
+    gallery: [
+      { type: 'image', url: 'https://images.pexels.com/photos/1814261/pexels-photo-1814261.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'video', url: '/Videos/v3.mp4', aspect: 'aspect-[4/3]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[16/9]' }
+    ]
+  },
+  {
+    id: 'studio97-architecture',
+    title: 'CONCRETE REFLECTIONS',
+    type: 'Architecture & Design',
+    cover: 'https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&w=800',
+    coverType: 'image',
+    aspectRatio: 'aspect-[3/4]',
+    gallery: [
+      { type: 'image', url: 'https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/9]' },
+      { type: 'video', url: '/Videos/v2.mp4', aspect: 'aspect-[4/3]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' }
+    ]
+  },
+  {
+    id: 'studio97-couture',
+    title: 'HAUTE COUTURE',
+    type: 'High Fashion Visuals',
+    cover: '/Videos/v1.mp4',
+    coverType: 'video',
+    aspectRatio: 'aspect-[16/10]',
+    gallery: [
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[16/10]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2773977/pexels-photo-2773977.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2016703/pexels-photo-2016703.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/9]' },
+      { type: 'video', url: '/Videos/v3.mp4', aspect: 'aspect-[9/16]' }
+    ]
+  },
+  {
+    id: 'studio97-destination',
+    title: 'THE COASTAL TALE',
+    type: 'Pre-Wedding Story',
+    cover: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=800',
+    coverType: 'image',
+    aspectRatio: 'aspect-[4/3]',
+    gallery: [
+      { type: 'image', url: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/38531668/pexels-photo-38531668.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'video', url: '/Videos/v2.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' }
+    ]
+  },
+  {
+    id: 'studio97-aerial',
+    title: 'SKYLINE HORIZONS',
+    type: 'Drone Cinematography',
+    cover: '/Videos/v3.mp4',
+    coverType: 'video',
+    aspectRatio: 'aspect-[16/9]',
+    gallery: [
+      { type: 'video', url: '/Videos/v3.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[4/3]' }
+    ]
+  },
+  {
+    id: 'studio97-wildlife',
+    title: 'UNTAMED WHISPERS',
+    type: 'Nature & Wildlife',
+    cover: 'https://images.pexels.com/photos/247287/pexels-photo-247287.jpeg?auto=compress&cs=tinysrgb&w=800',
+    coverType: 'image',
+    aspectRatio: 'aspect-[3/4]',
+    gallery: [
+      { type: 'image', url: 'https://images.pexels.com/photos/247287/pexels-photo-247287.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1814261/pexels-photo-1814261.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'video', url: '/Videos/v2.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' }
+    ]
+  },
+  {
+    id: 'studio97-commercial',
+    title: 'THE BRAND VISION',
+    type: 'Commercial Showcase',
+    cover: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=800',
+    coverType: 'image',
+    aspectRatio: 'aspect-[16/10]',
+    gallery: [
+      { type: 'image', url: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/10]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' }
+    ]
+  },
+  {
+    id: 'studio97-night',
+    title: 'NOCTURNAL SOUL',
+    type: 'Night Photography',
+    cover: '/Videos/v2.mp4',
+    coverType: 'video',
+    aspectRatio: 'aspect-square',
+    gallery: [
+      { type: 'video', url: '/Videos/v2.mp4', aspect: 'aspect-square' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2016703/pexels-photo-2016703.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/2773977/pexels-photo-2773977.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[16/9]' },
+      { type: 'video', url: '/Videos/v3.mp4', aspect: 'aspect-[3/4]' }
+    ]
+  },
+  {
+    id: 'studio97-fineart',
+    title: 'POETIC MOTION',
+    type: 'Fine Art Project',
+    cover: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=800',
+    coverType: 'image',
+    aspectRatio: 'aspect-[3/4]',
+    gallery: [
+      { type: 'image', url: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/38531667/pexels-photo-38531667.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[4/3]' },
+      { type: 'video', url: '/Videos/v1.mp4', aspect: 'aspect-[16/9]' },
+      { type: 'image', url: 'https://images.pexels.com/photos/1814261/pexels-photo-1814261.jpeg?auto=compress&cs=tinysrgb&w=1200', aspect: 'aspect-[3/4]' }
     ]
   }
 ];
@@ -159,6 +334,18 @@ const Section2 = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   const [highlightedId, setHighlightedId] = useState(null);
   const [scrollPos, setScrollPos] = useState(0);
+
+  // Manage body scroll locking when lightbox opens/closes
+  useEffect(() => {
+    if (selectedProject) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [selectedProject]);
 
   // Sync with browser back button
   useEffect(() => {
@@ -195,14 +382,13 @@ const Section2 = () => {
     }
   };
 
-  // 3-Column Desktop Grid
-  const col1 = [projectsData[0], projectsData[3]];
-  const col2 = [projectsData[1], projectsData[4]];
-  const col3 = [projectsData[2], projectsData[5]];
+  // Divide all projects evenly into columns
+  const col1 = projectsData.filter((_, idx) => idx % 3 === 0);
+  const col2 = projectsData.filter((_, idx) => idx % 3 === 1);
+  const col3 = projectsData.filter((_, idx) => idx % 3 === 2);
 
-  // 2-Column Mobile Grid
-  const mobileCol1 = [projectsData[0], projectsData[2], projectsData[4]];
-  const mobileCol2 = [projectsData[1], projectsData[3], projectsData[5]];
+  const mobileCol1 = projectsData.filter((_, idx) => idx % 2 === 0);
+  const mobileCol2 = projectsData.filter((_, idx) => idx % 2 === 1);
 
   const renderMediaItem = (item, idx) => {
     return (
@@ -251,6 +437,60 @@ const Section2 = () => {
     );
   };
 
+  // Helper function to build dynamic asymmetrical layouts for mobile lightbox
+  const renderMobileDynamicGallery = (items) => {
+    const rows = [];
+    let i = 0;
+
+    while (i < items.length) {
+      const pattern = rows.length % 5;
+
+      if (pattern === 0) {
+        // 1 Full-width spotlight
+        rows.push(
+          <div key={`mob-${i}`} className="w-full">
+            {renderMediaItem(items[i], i)}
+          </div>
+        );
+        i += 1;
+      } else if (pattern === 1 || pattern === 3) {
+        // 2-Column Grid with varying aspect items
+        const chunk = items.slice(i, i + 2);
+        rows.push(
+          <div key={`mob-${i}`} className="grid grid-cols-2 gap-3 items-center">
+            {chunk.map((item, idx) => renderMediaItem(item, i + idx))}
+          </div>
+        );
+        i += chunk.length;
+      } else if (pattern === 2) {
+        // 3-Column Mini Grid
+        const chunk = items.slice(i, i + 3);
+        rows.push(
+          <div key={`mob-${i}`} className="grid grid-cols-3 gap-2 items-center">
+            {chunk.map((item, idx) => renderMediaItem(item, i + idx))}
+          </div>
+        );
+        i += chunk.length;
+      } else {
+        // Asymmetrical Big & Small split
+        const chunk = items.slice(i, i + 2);
+        if (chunk.length === 2) {
+          rows.push(
+            <div key={`mob-${i}`} className="grid grid-cols-3 gap-3 items-center">
+              <div className="col-span-2">{renderMediaItem(chunk[0], i)}</div>
+              <div className="col-span-1">{renderMediaItem(chunk[1], i + 1)}</div>
+            </div>
+          );
+        } else {
+          rows.push(<div key={`mob-${i}`}>{renderMediaItem(chunk[0], i)}</div>);
+        }
+        i += chunk.length;
+      }
+    }
+
+    return rows;
+  };
+
   return (
     <section className="w-full bg-[#f4f4f4] text-neutral-900 min-h-screen px-4 sm:px-10 md:px-16 py-12 sm:py-16 font-sans">
       
@@ -282,9 +522,9 @@ const Section2 = () => {
         </>
       )}
 
-      {/* FULLSCREEN PROJECT LIGHTBOX (Hides Hero Carousel entirely) */}
+      {/* FULLSCREEN PROJECT LIGHTBOX */}
       {selectedProject && (
-        <div className="fixed inset-0 z-100 bg-[#f4f4f4] text-neutral-900 overflow-y-auto">
+        <div className="fixed inset-0 z-100 bg-[#f4f4f4] text-neutral-900 overflow-y-auto scrollbar-none [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
           
           {/* FIXED TOP HEADER */}
           <header className="sticky top-0 left-0 right-0 z-50 bg-[#f4f4f4]/90 backdrop-blur-md px-4 sm:px-10 md:px-16 py-4 sm:py-6 flex items-center justify-between border-b border-neutral-200">
@@ -298,7 +538,7 @@ const Section2 = () => {
             <button
               onClick={handleCloseProject}
               aria-label="Close Project"
-              className="text-xs sm:text-sm uppercase tracking-widest px-4 py-2 bg-neutral-900 text-white rounded hover:bg-neutral-800 transition active:scale-95"
+              className="text-xs sm:text-sm uppercase tracking-widest px-4 py-2 bg-neutral-900 text-white rounded hover:bg-neutral-800 transition active:scale-95 cursor-pointer"
             >
               Close ✕
             </button>
@@ -332,36 +572,24 @@ const Section2 = () => {
                   {selectedProject.gallery.slice(6, 9).map((item, idx) => renderMediaItem(item, idx + 6))}
                 </div>
               )}
+
+              {/* Extended Rows */}
+              {selectedProject.gallery.slice(9, 11).length > 0 && (
+                <div className="grid grid-cols-2 gap-8 items-center">
+                  {selectedProject.gallery.slice(9, 11).map((item, idx) => renderMediaItem(item, idx + 9))}
+                </div>
+              )}
+
+              {selectedProject.gallery.slice(11).length > 0 && (
+                <div className="grid grid-cols-3 gap-6 items-center">
+                  {selectedProject.gallery.slice(11).map((item, idx) => renderMediaItem(item, idx + 11))}
+                </div>
+              )}
             </div>
 
-            {/* MOBILE ASYMMETRICAL UNFIXED LAYOUT (1, 2, and 3 Grid Patterns) */}
+            {/* DYNAMIC ASYMMETRICAL MOBILE GALLERY */}
             <div className="block sm:hidden space-y-4">
-              
-              {/* 2-Grid Row */}
-              <div className="grid grid-cols-2 gap-3 items-center">
-                {selectedProject.gallery.slice(0, 2).map((item, idx) => renderMediaItem(item, idx))}
-              </div>
-
-              {/* 1 Full Width Spotlight */}
-              {selectedProject.gallery[2] && renderMediaItem(selectedProject.gallery[2], 2)}
-
-              {/* 3 Mini Grid Row */}
-              {selectedProject.gallery.slice(3, 6).length > 0 && (
-                <div className="grid grid-cols-3 gap-2 items-center">
-                  {selectedProject.gallery.slice(3, 6).map((item, idx) => renderMediaItem(item, idx + 3))}
-                </div>
-              )}
-
-              {/* 2 Grid Medium */}
-              {selectedProject.gallery.slice(6, 8).length > 0 && (
-                <div className="grid grid-cols-2 gap-3 items-center">
-                  {selectedProject.gallery.slice(6, 8).map((item, idx) => renderMediaItem(item, idx + 6))}
-                </div>
-              )}
-
-              {/* 1 Final Full Width Feature */}
-              {selectedProject.gallery[8] && renderMediaItem(selectedProject.gallery[8], 8)}
-
+              {renderMobileDynamicGallery(selectedProject.gallery)}
             </div>
 
           </main>

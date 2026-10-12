@@ -7,7 +7,7 @@ const packages = [
     line2: 'SHOOT',
     title: 'BIRTHDAY SHOOT',
     price: '₹350',
-    image: 'https://images.pexels.com/photos/1729808/pexels-photo-1729808.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791641953/download_1_tdr3hn.jpg',
     features: [
       'EDITED PHOTOS',
       'CAPTURED PICS ARE NOT PROVIDED',
@@ -22,7 +22,7 @@ const packages = [
     line2: 'SHOOT',
     title: 'BABY SHOOT',
     price: '₹500',
-    image: 'https://images.pexels.com/photos/3845457/pexels-photo-3845457.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/3212_ne5gp6.webp',
     features: [
       'EDITED PHOTOS',
       'CAPTURED PICS NOT PROVIDED',
@@ -36,7 +36,7 @@ const packages = [
     line2: 'SHOOT',
     title: 'PERSONAL SHOOT',
     price: '₹150',
-    image: 'https://images.pexels.com/photos/2774197/pexels-photo-2774197.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791641953/download_2_edyccv.jpg',
     features: [
       'EDITED PHOTOS',
       'CAPTURED PICS NOT PROVIDED',

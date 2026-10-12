@@ -7,7 +7,7 @@ const initialPackages = [
     subtitle: 'Wedding Package #1',
     price: '₹ 90,000 /-',
     image: 'https://images.pexels.com/photos/17354875/pexels-photo-17354875.jpeg',
-    modalBanner: 'https://images.pexels.com/photos/1814261/pexels-photo-1814261.jpeg?auto=compress&cs=tinysrgb&w=800',
+    modalBanner: 'https://images.pexels.com/photos/17354875/pexels-photo-17354875.jpeg',
     description: 'Studio97 — timeless wedding stories, artfully captured.',
     badge: 'ESSENTIAL COLLECTION',
     features: [
@@ -43,8 +43,8 @@ const initialPackages = [
     title: 'Platinum Package',
     subtitle: 'Wedding Package #3',
     price: '₹ 2,30,000 /-',
-    image: 'https://images.pexels.com/photos/2016703/pexels-photo-2016703.jpeg?auto=compress&cs=tinysrgb&w=800',
-    modalBanner: 'https://images.pexels.com/photos/2016703/pexels-photo-2016703.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-HQmsKvw/0/LMPZnGJxNdWCBNT8dkHzf4vrTvzvKF7nr3Bm72kfd/5K/DSC09298-5K.jpg',
+    modalBanner: 'https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-HQmsKvw/0/LMPZnGJxNdWCBNT8dkHzf4vrTvzvKF7nr3Bm72kfd/5K/DSC09298-5K.jpg',
     description: 'The ultimate royal wedding experience with full multi-crew coverage.',
     badge: 'ROYAL COLLECTION',
     features: [

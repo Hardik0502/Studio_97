@@ -6,8 +6,8 @@ const prewedPackages = [
     title: 'PACKAGE ONE',
     duration: '1 Day Shoot',
     price: '₹ 30,000 /-',
-    image: 'https://images.pexels.com/photos/17354875/pexels-photo-17354875.jpeg',
-    modalBanner: 'https://images.pexels.com/photos/1814261/pexels-photo-1814261.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-SGPv54F/0/Nff2T4nZwm6FQ8XD5B6nxZ45Gb77GMkjHvSLHzCrw/X2/163-X2.jpg',
+    modalBanner: 'https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-SGPv54F/0/Nff2T4nZwm6FQ8XD5B6nxZ45Gb77GMkjHvSLHzCrw/X2/163-X2.jpg',
     description: 'Essential pre-wedding coverage to capture your romantic chemistry in a single day.',
     badge: 'ESSENTIAL COLLECTION',
     features: [
@@ -22,8 +22,8 @@ const prewedPackages = [
     title: 'PACKAGE TWO',
     duration: '1 Day Shoot',
     price: '₹ 50,000 /-',
-    image: 'https://images.pexels.com/photos/38531667/pexels-photo-38531667.jpeg?auto=compress&cs=tinysrgb&w=800',
-    modalBanner: 'https://images.pexels.com/photos/38531667/pexels-photo-38531667.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-HzdNzjC/0/MkBmj2D3QFFN9Z6X7v4qZQdnKxx2XZ3kqgtSsknM5/X3/JAYU-148-X3.jpg',
+    modalBanner: 'https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-HzdNzjC/0/MkBmj2D3QFFN9Z6X7v4qZQdnKxx2XZ3kqgtSsknM5/X3/JAYU-148-X3.jpg',
     description: 'Elevated full-day cinematic shoot with aerial drone visuals and social media reels.',
     badge: 'SIGNATURE COLLECTION',
     features: [

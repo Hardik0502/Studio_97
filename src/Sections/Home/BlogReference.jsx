@@ -26,9 +26,9 @@ const PROJECTS = [
     id: '03',
     title: 'ECHOES OF MIST',
     category: 'FINE ART LANDSCAPE',
-    location: 'Rasalpur, IN',
+    location: 'Studio 97, IN',
     aspect: 'aspect-[4/5]',
-    image: 'https://cdn.phototourl.com/free/2026-07-26-49551e5a-5699-42f6-9e56-98e5736fb810.webp',
+    image: 'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/3212_ne5gp6.webp',
     specs: 'SONY ALPHA-III • 30MM',
   },
   {
@@ -37,7 +37,7 @@ const PROJECTS = [
     category: 'DOCUMENTARY',
     location: 'Bangkok, TH',
     aspect: 'aspect-[16/9]',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1600&q=85',
+    image: 'https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630487/5_hvidof.webp',
     specs: 'SONY ALPHA-III • 30MM',
   },
 ];
