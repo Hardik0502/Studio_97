@@ -667,7 +667,7 @@ function EventSheet({ evt, origin, onClosed }) {
         }}
       />
 
-      {/* panel: scales 0 -> 1 in 0.5s */}
+      {/* panel: scales 0 -> 1 in 0.5s ok */}
       <div
         ref={panelRef}
         role="dialog"
