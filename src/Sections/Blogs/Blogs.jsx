@@ -17,7 +17,7 @@ const Blogs = () => {
 
     <link
       rel="canonical"
-      href="https://studio97.in/blog"
+      href="https://studio97.in/blogs"
     />
   </Helmet>
 

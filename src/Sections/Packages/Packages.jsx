@@ -15,7 +15,7 @@ const Packages = () => {
 
         <link
           rel="canonical"
-          href="https://studio97.in/package"
+          href="https://studio97.in/packages"
         />
       </Helmet>
 
