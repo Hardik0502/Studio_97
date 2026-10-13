@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 
 /* ------------------------------------------------------------------ */
 /*  CONTENT & ASSETS                                                 */
@@ -220,6 +221,23 @@ export default function About() {
   const textOpacity = useTransform(exitSmooth, [0, 0.6], [1, 0]);
 
   return (
+
+    <>
+
+    <Helmet>
+<title>About Us | Studio97</title>
+
+    <meta
+      name="description"
+      content="Learn more about Studio97, our story, our vision, and what makes our studio unique."
+    />
+
+    <link
+      rel="canonical"
+      href="https://studio97.in/about"
+    />
+  </Helmet>
+
     <main
       className="bg-[#ECE4D9] text-[#0b0b0b]"
       style={{
@@ -538,5 +556,8 @@ export default function About() {
 
       </section>
     </main>
+
+          </>
+
   );
 }

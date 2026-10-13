@@ -12,6 +12,11 @@ import {
   FaMapMarkerAlt
 } from 'react-icons/fa';
 import FinalSection from './FinalSection';
+import { Helmet } from 'react-helmet-async';
+
+
+
+
 
 const words = [
   "ANTI-CLICHÉ",
@@ -134,6 +139,20 @@ const Home = () => {
 
   return (
     <>
+    <Helmet>
+<title>Studio97 | Creative Studio & Experiences</title>
+
+    <meta
+      name="description"
+      content="Discover Studio97, explore our packages, events, creative experiences, and latest updates."
+    />
+
+    <link
+      rel="canonical"
+      href="https://studio97.in/"
+    />
+  </Helmet>
+  
       <div className="w-full font-serif antialiased bg-[#FAF9F6] text-[#1C1C1C]">
         
         {/* SECTION 1: HERO */}

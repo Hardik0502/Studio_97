@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { Helmet } from 'react-helmet-async';
 
 /* ------------------------------------------------------------------ */
 /*  IMAGES – put your files in /public/images and keep these names.   */
@@ -770,7 +771,25 @@ function LiveEvents() {
 
 /* -------------------------------- PAGE ----------------------------- */
 export default function EventPage() {
+
   return (
+
+    <>
+
+    <Helmet>
+<title>Events & Experiences | Studio97</title>
+
+    <meta
+      name="description"
+      content="Discover events and experiences from Studio97. Explore upcoming events, activities, and opportunities to connect."
+    />
+
+    <link
+      rel="canonical"
+      href="https://studio97.in/event"
+    />
+  </Helmet>
+
     <main className="min-h-screen bg-[#0d0d0d] font-['DM_Sans',system-ui,sans-serif] text-white antialiased">
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
@@ -787,5 +806,8 @@ export default function EventPage() {
       <Specialties />
       <LiveEvents />
     </main>
+
+</>
+
   );
 }

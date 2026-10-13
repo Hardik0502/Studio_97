@@ -1,14 +1,29 @@
-import React from 'react'
-import Section1 from './Section1'
+import React from 'react';
+import Section1 from './Section1';
+import { Helmet } from 'react-helmet-async';
 
 const Packages = () => {
   return (
     <>
-     <section className='Section1' >
-      < Section1 />
-    </section> 
-    </>
-  )
-}
+      <Helmet>
+        <title>Packages & Pricing | Studio97</title>
 
-export default Packages
+        <meta
+          name="description"
+          content="Explore Studio97 packages and pricing. Discover the right package for your needs."
+        />
+
+        <link
+          rel="canonical"
+          href="https://studio97.in/package"
+        />
+      </Helmet>
+
+      <section className="Section1">
+        <Section1 />
+      </section>
+    </>
+  );
+};
+
+export default Packages;
