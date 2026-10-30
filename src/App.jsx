@@ -7,14 +7,12 @@ import Packages from './Sections/Packages/Packages'
 import MainLayout from './MainLayout'
 import Event from './Sections/Event/Event'
 import ScrollToTop from './Components/Scrolltop/Scrolltop'
-import DoorIntro from './Components/Intro/Intro'
 
 
 function App() {
 
   return (
     <>
-      <DoorIntro />
       < ScrollToTop />
       <Routes >
         <Route element={< MainLayout />}>
