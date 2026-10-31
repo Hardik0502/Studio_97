@@ -77,7 +77,7 @@ const FinalSection = () => {
 
             <div className="mt-6 sm:mt-10">
               <a
-                href="#contact"
+                href="/about"
                 className="inline-block bg-[#2E2824] hover:bg-[#12100E] text-[#FAF8F3] text-[9px] sm:text-xs tracking-[0.2em] sm:tracking-[0.25em] font-medium uppercase px-6 sm:px-10 py-3.5 sm:py-4 transition-all duration-300 shadow-lg hover:shadow-2xl"
               >
                 WORK WITH US

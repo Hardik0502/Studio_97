@@ -6,7 +6,7 @@ const Packages = () => {
   return (
     <>
       <Helmet>
-        <title>Packages & Pricing | Studio97</title>
+        <title>Studio97 | Packages & Pricing </title>
 
         <meta
           name="description"

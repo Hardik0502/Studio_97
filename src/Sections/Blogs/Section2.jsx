@@ -499,7 +499,7 @@ const Section2 = () => {
         <>
           <div className="max-w-3xl mb-12 sm:mb-20 text-base sm:text-xl leading-relaxed text-neutral-800 font-light">
             <p>
-              Studio 97 is a premier photography and filmmaking house capturing weddings, fashion, portraits, and timeless visual stories. Discover our portfolio <a href="#about" className="underline underline-offset-4 text-neutral-900 font-medium hover:text-black">here</a>.
+              Studio 97 is a premier photography and filmmaking house capturing weddings, fashion, portraits, and timeless visual stories. Discover our portfolio <a href="/about" className="underline underline-offset-4 text-neutral-900 font-medium hover:text-black">here</a>.
             </p>
           </div>
 

@@ -1,10 +1,32 @@
-import React from 'react';
-import WeddingPkg from './WeddingPkg'; // Make sure the path matches your project structure
+import React, { useEffect } from 'react';
+import WeddingPkg from './WeddingPkg';
 import Prewed from './PrewedPkg';
 import BabyShower from './BabyShower';
 import OtherPkg from './OtherPkg';
 
 const Section1 = () => {
+  // Handle smooth scroll when clicking the button on the current page
+  const handleScrollToPackages = (e) => {
+    e.preventDefault();
+    const element = document.getElementById('packages-section');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  // Check if the URL has a hash (#packages-section) on initial page load from another page, 
+  // and jump straight to it to avoid the half-white rendering trail.
+  useEffect(() => {
+    if (window.location.hash === '#packages-section') {
+      const element = document.getElementById('packages-section');
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'auto' });
+        }, 50);
+      }
+    }
+  }, []);
+
   return (
     <section className="w-full bg-[#0D0F0E] text-stone-200 font-serif overflow-x-hidden selection:bg-amber-200 selection:text-black">
       
@@ -28,7 +50,8 @@ const Section1 = () => {
           </h1>
           <a
             href="#packages-section"
-            className="inline-block px-8 py-3 bg-[#E3DAC9]/90 hover:bg-[#E3DAC9] text-[#121816] text-xs uppercase tracking-[0.25em] font-sans font-medium transition duration-300 backdrop-blur-sm rounded-full"
+            onClick={handleScrollToPackages}
+            className="inline-block px-8 py-3 bg-[#E3DAC9]/90 hover:bg-[#E3DAC9] text-[#121816] text-xs uppercase tracking-[0.25em] font-sans font-medium transition duration-300 backdrop-blur-sm rounded-full cursor-pointer"
           >
             VIEW PACKAGES
           </a>

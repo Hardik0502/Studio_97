@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import { ArrowUpRight, Plus } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 // Selected Editorial Photography Projects (Asymmetrical aspect ratios)
 const PROJECTS = [
@@ -110,9 +111,9 @@ export default function BlogReference() {
               <span className="text-[11px] font-mono tracking-[0.3em] text-neutral-500 uppercase block mb-4">
                 [ STUDIO 97 SINCE 2018 ]
               </span>
-              <h1 className="text-5xl sm:text-7xl lg:text-8xl font-serif font-light tracking-tight leading-[0.95] text-[#F3F1ED]">
+              <h1 className="text-5xl sm:text-7xl lg:text-8xl font-[t7] font-light tracking-tight leading-[0.95] text-[#F3F1ED]">
                 Selected <br />
-                <span className="italic font-normal font-serif text-neutral-400 pl-4 sm:pl-12">Works</span>
+                <span className="italic font-normal font-[t7] text-neutral-400 pl-4 sm:pl-12">Works</span>
               </h1>
             </div>
 
@@ -130,86 +131,88 @@ export default function BlogReference() {
 
         {/* Asymmetrical 4-Project Grid with Independent Parallax Scroll */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-start">
-          
-          {/* Left Column (Slightly Faster Parallax) */}
-          <motion.div style={{ y: yLeft }} className="space-y-20 md:space-y-32">
-            {[PROJECTS[0], PROJECTS[2]].map((project) => (
-              <article
-                key={project.id}
-                onMouseEnter={() => setActiveProject(project.id)}
-                onMouseLeave={() => setActiveProject(null)}
-                className="group cursor-pointer"
-              >
-                {/* Image Container */}
-                <div className={`relative ${project.aspect} overflow-hidden bg-neutral-900 border border-neutral-800/60`}>
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover grayscale contrast-[1.05] brightness-[0.9] transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100"
-                    loading="lazy"
-                  />
-                </div>
+  
+  {/* Left Column (Slightly Faster Parallax) */}
+  <motion.div style={{ y: yLeft }} className="space-y-20 md:space-y-32">
+    {[PROJECTS[0], PROJECTS[2]].map((project) => (
+      <Link key={project.id} to="/blogs" className="block">
+        <article
+          onMouseEnter={() => setActiveProject(project.id)}
+          onMouseLeave={() => setActiveProject(null)}
+          className="group cursor-pointer"
+        >
+          {/* Image Container */}
+          <div className={`relative ${project.aspect} overflow-hidden bg-neutral-900 border border-neutral-800/60`}>
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-full object-cover grayscale contrast-[1.05] brightness-[0.9] transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100"
+              loading="lazy"
+            />
+          </div>
 
-                {/* Technical Meta & Title Below Image */}
-                <div className="mt-6 pt-4 border-t border-neutral-800/60 flex flex-col space-y-2">
-                  <div className="flex items-center justify-between text-[11px] font-mono text-neutral-500 tracking-widest uppercase">
-                    <span>{project.category}</span>
-                    <span>{project.location}</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <h2 className="text-xl sm:text-2xl font-serif tracking-wide text-[#F3F1ED] group-hover:text-amber-200 transition-colors duration-300">
-                      {project.title}
-                    </h2>
-                    <ArrowUpRight className="w-5 h-5 text-neutral-600 transition-transform duration-500 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white" />
-                  </div>
-                  <span className="text-[10px] font-mono text-neutral-600 tracking-wider">
-                    {project.specs}
-                  </span>
-                </div>
-              </article>
-            ))}
-          </motion.div>
+          {/* Technical Meta & Title Below Image */}
+          <div className="mt-6 pt-4 border-t border-neutral-800/60 flex flex-col space-y-2">
+            <div className="flex items-center justify-between text-[11px] font-mono text-neutral-500 tracking-widest uppercase">
+              <span>{project.category}</span>
+              <span>{project.location}</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <h2 className="text-xl sm:text-2xl font-serif tracking-wide text-[#F3F1ED] group-hover:text-amber-200 transition-colors duration-300">
+                {project.title}
+              </h2>
+              <ArrowUpRight className="w-5 h-5 text-neutral-600 transition-transform duration-500 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white" />
+            </div>
+            <span className="text-[10px] font-mono text-neutral-600 tracking-wider">
+              {project.specs}
+            </span>
+          </div>
+        </article>
+      </Link>
+    ))}
+  </motion.div>
 
-          {/* Right Column (Offset Downward with Slower Parallax) */}
-          <motion.div style={{ y: yRight }} className="space-y-20 md:space-y-32 md:pt-28">
-            {[PROJECTS[1], PROJECTS[3]].map((project) => (
-              <article
-                key={project.id}
-                onMouseEnter={() => setActiveProject(project.id)}
-                onMouseLeave={() => setActiveProject(null)}
-                className="group cursor-pointer"
-              >
-                {/* Image Container */}
-                <div className={`relative ${project.aspect} overflow-hidden bg-neutral-900 border border-neutral-800/60`}>
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover grayscale contrast-[1.05] brightness-[0.9] transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100"
-                    loading="lazy"
-                  />
-                </div>
+  {/* Right Column (Offset Downward with Slower Parallax) */}
+  <motion.div style={{ y: yRight }} className="space-y-20 md:space-y-32 md:pt-28">
+    {[PROJECTS[1], PROJECTS[3]].map((project) => (
+      <Link key={project.id} to="/blogs" className="block">
+        <article
+          onMouseEnter={() => setActiveProject(project.id)}
+          onMouseLeave={() => setActiveProject(null)}
+          className="group cursor-pointer"
+        >
+          {/* Image Container */}
+          <div className={`relative ${project.aspect} overflow-hidden bg-neutral-900 border border-neutral-800/60`}>
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-full object-cover grayscale contrast-[1.05] brightness-[0.9] transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100"
+              loading="lazy"
+            />
+          </div>
 
-                {/* Technical Meta & Title Below Image */}
-                <div className="mt-6 pt-4 border-t border-neutral-800/60 flex flex-col space-y-2">
-                  <div className="flex items-center justify-between text-[11px] font-mono text-neutral-500 tracking-widest uppercase">
-                    <span>{project.category}</span>
-                    <span>{project.location}</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <h2 className="text-xl sm:text-2xl font-serif tracking-wide text-[#F3F1ED] group-hover:text-amber-200 transition-colors duration-300">
-                      {project.title}
-                    </h2>
-                    <ArrowUpRight className="w-5 h-5 text-neutral-600 transition-transform duration-500 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white" />
-                  </div>
-                  <span className="text-[10px] font-mono text-neutral-600 tracking-wider">
-                    {project.specs}
-                  </span>
-                </div>
-              </article>
-            ))}
-          </motion.div>
+          {/* Technical Meta & Title Below Image */}
+          <div className="mt-6 pt-4 border-t border-neutral-800/60 flex flex-col space-y-2">
+            <div className="flex items-center justify-between text-[11px] font-mono text-neutral-500 tracking-widest uppercase">
+              <span>{project.category}</span>
+              <span>{project.location}</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <h2 className="text-xl sm:text-2xl font-serif tracking-wide text-[#F3F1ED] group-hover:text-amber-200 transition-colors duration-300">
+                {project.title}
+              </h2>
+              <ArrowUpRight className="w-5 h-5 text-neutral-600 transition-transform duration-500 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white" />
+            </div>
+            <span className="text-[10px] font-mono text-neutral-600 tracking-wider">
+              {project.specs}
+            </span>
+          </div>
+        </article>
+      </Link>
+    ))}
+  </motion.div>
 
-        </div>
+</div>
 
         {/* High-End Editorial Journal / Blog Redirect Section */}
         <section className="mt-40 md:mt-56 pt-20 border-t border-neutral-800 flex flex-col md:flex-row justify-between items-start md:items-end gap-12">

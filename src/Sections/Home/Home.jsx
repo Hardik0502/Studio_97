@@ -13,7 +13,7 @@ import {
 } from 'react-icons/fa';
 import FinalSection from './FinalSection';
 import { Helmet } from 'react-helmet-async';
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -188,28 +188,28 @@ const Home = () => {
             <div className="absolute left-6 sm:left-10 top-1/2 -translate-y-1/2 z-20 flex flex-col items-center gap-6 text-white/80">
               <div className="flex flex-col items-center gap-5 text-sm sm:text-base">
                 <a 
-                  href="#instagram" 
+                  href="https://www.instagram.com/studio_97__/" 
                   aria-label="Instagram" 
                   className="hover:text-white transition-opacity opacity-80 hover:opacity-100"
                 >
                   <FaInstagram />
                 </a>
                 <a 
-                  href="#facebook" 
+                  href="https://www.facebook.com/captian.jayu.2025/" 
                   aria-label="Facebook" 
                   className="hover:text-white transition-opacity opacity-80 hover:opacity-100"
                 >
                   <FaFacebookF />
                 </a>
                 <a 
-                  href="#youtube" 
+                  href="https://www.youtube.com/@Studio_97__/videos" 
                   aria-label="YouTube" 
                   className="hover:text-white transition-opacity opacity-80 hover:opacity-100"
                 >
                   <FaYoutube />
                 </a>
                 <a 
-                  href="#map" 
+                  href="https://maps.app.goo.gl/tErVoGBtiZnTLRa19" 
                   aria-label="Location Map" 
                   className="hover:text-white transition-opacity opacity-80 hover:opacity-100"
                 >
@@ -276,49 +276,49 @@ const Home = () => {
                 </div>
 
                 {/* 3 Columns Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 w-full max-w-5xl">
-                  {/* Card 1 */}
-                  <div className="flex flex-col items-center group cursor-pointer">
-                    <div className="w-full aspect-3/4 overflow-hidden border border-zinc-200 mb-6">
-                      <img
-                        src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1782999599/samples/woman-on-a-football-field.jpg"
-                        alt="Coaching"
-                        className="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-105"
-                      />
-                    </div>
-                    <h3 className="text-xs tracking-[0.3em] font-sans font-medium uppercase text-zinc-800">
-                      Heritage Cinema
-                    </h3>
-                  </div>
+               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 w-full max-w-5xl">
+  {/* Card 1 */}
+  <Link to="/blogs" className="flex flex-col items-center group cursor-pointer">
+    <div className="w-full aspect-3/4 overflow-hidden border border-zinc-200 mb-6">
+      <img
+        src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1782999599/samples/woman-on-a-football-field.jpg"
+        alt="Heritage Cinema"
+        className="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-105"
+      />
+    </div>
+    <h3 className="text-xs tracking-[0.3em] font-sans font-medium uppercase text-zinc-800">
+      Heritage Cinema
+    </h3>
+  </Link>
 
-                  {/* Card 2 */}
-                  <div className="flex flex-col items-center group cursor-pointer">
-                    <div className="w-full aspect-3/4 overflow-hidden border border-zinc-200 mb-6">
-                      <img
-                        src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/9_h6bf5a.webp"
-                        alt="Branding"
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                      />
-                    </div>
-                    <h3 className="text-xs tracking-[0.3em] font-sans font-medium uppercase text-zinc-800">
-                      Ambient Motion
-                    </h3>
-                  </div>
+  {/* Card 2 */}
+  <Link to="/blogs" className="flex flex-col items-center group cursor-pointer">
+    <div className="w-full aspect-3/4 overflow-hidden border border-zinc-200 mb-6">
+      <img
+        src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/9_h6bf5a.webp"
+        alt="Ambient Motion"
+        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+      />
+    </div>
+    <h3 className="text-xs tracking-[0.3em] font-sans font-medium uppercase text-zinc-800">
+      Ambient Motion
+    </h3>
+  </Link>
 
-                  {/* Card 3 */}
-                  <div className="flex flex-col items-center group cursor-pointer">
-                    <div className="w-full aspect-3/4 overflow-hidden border border-zinc-200 mb-6">
-                      <img
-                        src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/8_irfdkd.webp"
-                        alt="Social Media"
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                      />
-                    </div>
-                    <h3 className="text-xs tracking-[0.3em] font-sans font-medium uppercase text-zinc-800">
-                      Editorial Identity
-                    </h3>
-                  </div>
-                </div>
+  {/* Card 3 */}
+  <Link to="/blogs" className="flex flex-col items-center group cursor-pointer">
+    <div className="w-full aspect-3/4 overflow-hidden border border-zinc-200 mb-6">
+      <img
+        src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1791630486/8_irfdkd.webp"
+        alt="Editorial Identity"
+        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+      />
+    </div>
+    <h3 className="text-xs tracking-[0.3em] font-sans font-medium uppercase text-zinc-800">
+      Editorial Identity
+    </h3>
+  </Link>
+</div>
               </div>
             </section>
 
@@ -456,58 +456,62 @@ const Home = () => {
 
             {/* 2-Column Grid Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-1 w-full max-w-7xl mx-auto px-0 md:px-4">
-              {/* Card 1 */}
-              <motion.div
-                custom={0}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-50px" }}
-                variants={skyCardVariants}
-                className="relative group h-112.5 md:h-137.5 overflow-hidden cursor-pointer"
-              >
-                <img
-                  src="https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-rxSZmvz/0/NGmt2m6g6p8B7kBHh3cDLLz8rjVHbdVsK9kKQGbHD/L/_DSC9773-L.jpg"
-                  alt="Portfolio"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors duration-300" />
-                <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
-                  <h3 className="text-2xl md:text-3xl tracking-[0.2em] font-light uppercase mb-2">
-                    PORTFOLIO
-                  </h3>
-                  <p className="text-xs tracking-[0.25em] font-light uppercase opacity-90 mb-4">
-                    FEATURED COUPLE
-                  </p>
-                  <div className="w-10 h-px bg-white/80" />
-                </div>
-              </motion.div>
+  {/* Card 1 */}
+  <Link to="/blogs" className="block">
+    <motion.div
+      custom={0}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-50px" }}
+      variants={skyCardVariants}
+      className="relative group h-112.5 md:h-137.5 overflow-hidden cursor-pointer"
+    >
+      <img
+        src="https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-rxSZmvz/0/NGmt2m6g6p8B7kBHh3cDLLz8rjVHbdVsK9kKQGbHD/L/_DSC9773-L.jpg"
+        alt="Portfolio"
+        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+      />
+      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors duration-300" />
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
+        <h3 className="text-2xl md:text-3xl tracking-[0.2em] font-light uppercase mb-2">
+          PORTFOLIO
+        </h3>
+        <p className="text-xs tracking-[0.25em] font-light uppercase opacity-90 mb-4">
+          FEATURED COUPLE
+        </p>
+        <div className="w-10 h-px bg-white/80" />
+      </div>
+    </motion.div>
+  </Link>
 
-              {/* Card 2 */}
-              <motion.div
-                custom={1}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-50px" }}
-                variants={skyCardVariants}
-                className="relative group h-112.5 md:h-137.5 overflow-hidden cursor-pointer"
-              >
-                <img
-                  src="https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-HzdNzjC/0/LLDRqbvb8DHjTxsHtdVvg42jpKkxnVhTqDhVhgrZ8/XL/JAYU-148-XL.jpg"
-                  alt="Portfolio"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors duration-300" />
-                <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
-                  <h3 className="text-2xl md:text-3xl tracking-[0.2em] font-light uppercase mb-2">
-                    PORTFOLIO
-                  </h3>
-                  <p className="text-xs tracking-[0.25em] font-light uppercase opacity-90 mb-4">
-                    FEATURED COUPLE
-                  </p>
-                  <div className="w-10 h-px bg-white/80" />
-                </div>
-              </motion.div>
-            </div>
+  {/* Card 2 */}
+  <Link to="/blogs" className="block">
+    <motion.div
+      custom={1}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-50px" }}
+      variants={skyCardVariants}
+      className="relative group h-112.5 md:h-137.5 overflow-hidden cursor-pointer"
+    >
+      <img
+        src="https://photos.smugmug.com/Best-Of-97/BEST-OF-STUDIO-97/i-HzdNzjC/0/LLDRqbvb8DHjTxsHtdVvg42jpKkxnVhTqDhVhgrZ8/XL/JAYU-148-XL.jpg"
+        alt="Portfolio"
+        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+      />
+      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors duration-300" />
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
+        <h3 className="text-2xl md:text-3xl tracking-[0.2em] font-light uppercase mb-2">
+          PORTFOLIO
+        </h3>
+        <p className="text-xs tracking-[0.25em] font-light uppercase opacity-90 mb-4">
+          FEATURED COUPLE
+        </p>
+        <div className="w-10 h-px bg-white/80" />
+      </div>
+    </motion.div>
+  </Link>
+</div>
 
             {/* Category Filter Navigation Bar */}
             <div className="py-8 my-4 border-y border-zinc-200/60 max-w-7xl mx-auto px-4">
@@ -537,24 +541,27 @@ const Home = () => {
 
               {/* Floating White Card */}
               <div className="absolute inset-0 flex items-center justify-center p-4">
-                <div className="bg-white/95 backdrop-blur-sm p-8 md:p-12 max-w-xl w-full text-center shadow-lg border border-zinc-100 flex flex-col items-center">
-                  <span className="text-[11px] tracking-[0.3em] font-medium uppercase text-zinc-500 mb-3">
-                    JOURNAL
-                  </span>
-                  <h3 className="text-xl md:text-2xl tracking-[0.2em] font-light uppercase text-zinc-800 mb-4">
-                    ONE MORE BLOG POST
-                  </h3>
-                  <div className="w-8 h-px bg-zinc-400 mb-6" />
-                  <p className="text-xs text-zinc-500 leading-relaxed mb-8 max-w-md">
-                    For every couple, love is a collection of quiet glances, unscripted laughter, and shared moments.
-We capture the raw, electric connection between lovers, dreamers, and free spirits.
-Your unique romance, preserved as a timeless, cinematic archive of frames to treasure forever.
-                  </p>
-                  <button className="bg-zinc-800 hover:bg-black text-white text-[11px] tracking-[0.25em] uppercase px-8 py-3 transition-colors duration-300">
-                    VIEW
-                  </button>
-                </div>
-              </div>
+  <div className="bg-white/95 backdrop-blur-sm p-8 md:p-12 max-w-xl w-full text-center shadow-lg border border-zinc-100 flex flex-col items-center">
+    <span className="text-[11px] tracking-[0.3em] font-medium uppercase text-zinc-500 mb-3">
+      JOURNAL
+    </span>
+    <h3 className="text-xl md:text-2xl tracking-[0.2em] font-light uppercase text-zinc-800 mb-4">
+      ONE MORE BLOG POST
+    </h3>
+    <div className="w-8 h-px bg-zinc-400 mb-6" />
+    <p className="text-xs text-zinc-500 leading-relaxed mb-8 max-w-md">
+      For every couple, love is a collection of quiet glances, unscripted laughter, and shared moments.
+      We capture the raw, electric connection between lovers, dreamers, and free spirits.
+      Your unique romance, preserved as a timeless, cinematic archive of frames to treasure forever.
+    </p>
+    <Link 
+      to="/blogs" 
+      className="bg-zinc-800 hover:bg-slate-700 text-white text-[11px] tracking-[0.25em] uppercase px-8 py-3 transition-colors duration-300 inline-block text-center"
+    >
+      VIEW
+    </Link>
+  </div>
+</div>
             </motion.div>
           </div>
         </section>
