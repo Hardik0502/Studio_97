@@ -1,0 +1,8 @@
+
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://studio97.in/sitemap.xml
