@@ -10,19 +10,16 @@ import ScrollToTop from './Components/Scrolltop/Scrolltop'
 
 
 function App() {
-
   return (
     <>
-      < ScrollToTop />
-      <Routes >
-        <Route element={< MainLayout />}>
-
+      <ScrollToTop />
+      <Routes>
+        <Route element={<MainLayout />}>
           <Route path='/' element={<Home />} />
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/packages' element={<Packages />} />
           <Route path='/event' element={<Event />} />
           <Route path='/about' element={<About />} />
-          
         </Route>
       </Routes>
     </>
