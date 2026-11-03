@@ -142,15 +142,30 @@ const Home = () => {
     <Helmet>
 <title>Studio97 | Creative Studio & Experiences</title>
 
-    <meta
-      name="description"
-      content="Discover Studio97, explore our packages, events, creative experiences, and latest updates."
-    />
+     <meta
+    name="description"
+    content="Looking for a wedding photographer in Anand, Gujarat? Studio97 captures weddings, candid moments, pre-wedding shoots and celebrations through photography and cinematic films."
+  />
 
-    <link
-      rel="canonical"
-      href="https://studio97.in/"
-    />
+  <link
+    rel="canonical"
+    href="https://studio97.in/"
+  />
+
+  <meta
+    property="og:title"
+    content="Wedding Photographer in Anand, Gujarat | Studio97"
+  />
+
+  <meta
+    property="og:description"
+    content="Explore Studio97's wedding photography, candid moments and cinematic films in Anand, Gujarat."
+  />
+
+  <meta
+    property="og:url"
+    content="https://studio97.in/"
+  />
   </Helmet>
   
       <div className="w-full font-serif antialiased bg-[#FAF9F6] text-[#1C1C1C]">
@@ -328,7 +343,7 @@ const Home = () => {
         {/* BANNER: BOOKING NOTICE */}
         <div className="w-full bg-[#E5DDD0] py-4 px-4 text-center">
           <p className="text-xs sm:text-sm tracking-[0.25em] font-sans font-normal uppercase text-zinc-700">
-            NOW BOOKING CLIENT WORK FOR APRIL 2025
+            ACCEPTING WEDDING PHOTOGRAPHY ENQUIRIES
           </p>
         </div>
 
@@ -435,9 +450,14 @@ const Home = () => {
             </div>
 
             <div className="max-w-full lg:max-w-82.5 pt-0 lg:pt-2">
-              <p className="text-[#8F8F8F] text-[12px] sm:text-[13px] leading-[1.4] font-normal max-w-md lg:max-w-none">
-                A curated showcase of visual stories, candid celebrations, and cinematic archives. Each collection represents a unique moment in time, an authentic emotion, and an unrepeatable narrative captured with precision.
-              </p>
+              
+<p className="text-[#8F8F8F] text-[12px] sm:text-[13px] leading-[1.4] font-normal max-w-md lg:max-w-none">
+  Studio97 captures wedding stories, candid emotions, pre-wedding
+  moments and celebrations in Anand, Gujarat. Explore our selected
+  photography and cinematic films, and discover how we preserve
+  meaningful moments through creative visual storytelling.
+</p>
+
             </div>
           </div>
 
