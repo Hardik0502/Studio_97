@@ -194,7 +194,7 @@ const Home = () => {
                 </div>
               ))}
               {/* Dark Overlay */}
-              <div className="absolute inset-0 bg-black/25 z-10" />
+              <div className="absolute inset-0  z-10" />
             </div>
 
             {/* ------------------------------------------------------------- */}
