@@ -224,7 +224,7 @@ const FinalSection = () => {
             </motion.div>
             <motion.div style={{ y: aboutImgRightY }} className="col-span-5 aspect-3/5 overflow-hidden bg-zinc-200 shadow-xl mt-6 sm:mt-12 relative">
               <img
-                src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1791640563/%D0%A4%D0%BE%D1%82%D0%BE%D1%81%D0%B5%D1%81%D1%96%D1%8F_ozwjc4.jpg"
+                src="https://res.cloudinary.com/ddhh0a3an/image/upload/v1791641953/download_2_edyccv.jpg"
                 alt="Camera Gear"
                 className="w-full h-full object-cover"
               />
